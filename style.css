@@ -336,10 +336,10 @@ width: 180px;
 height: 180px;
 border-radius: 50%;
 object-fit: cover;
-#animation: spin3d 5s linear infinite;
+animation: spin3d 5s linear infinite;
 }
 
-#@keyframes spin3d {
+@keyframes spin3d {
 0% { transform: rotateY(0deg); }
 100% { transform: rotateY(360deg); }
 }
